@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 
-axios.defaults.baseURL = "https://api.unsplash.com/search";
+axios.defaults.baseURL = 'https://api.unsplash.com/search';
 const key = 'BBfUDZ9_xs1Fql0aSk2TLayxKF_kokkB-DtnsDQxJ-E';
 
 export const getImagesByTopic = async (topic, page) => {

@@ -5,6 +5,7 @@ export default function SearchBar({ onSubmit }) {
 
   const handleSubmit = (evt) => {
     evt.preventDefault();
+
     const form = evt.target;
     const topic = form.elements.topic.value;
     if (topic.trim() === "") {
@@ -12,7 +13,7 @@ export default function SearchBar({ onSubmit }) {
 			return;
 		}
 
-    onSubmit(topic);
+    onSubmit(topic, 1);
     form.reset();
   };
 
