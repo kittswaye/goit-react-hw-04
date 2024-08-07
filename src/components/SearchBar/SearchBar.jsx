@@ -26,8 +26,9 @@ export default function SearchBar({ onSubmit }) {
             autoFocus
             placeholder="Search images and photos"
             name="topic"
+            className={css.input}
           />
-          <button type="submit">Search</button>
+          <button type="submit" className={css.search}>Search</button>
           <Toaster />
         </form>
       </header>
