@@ -9,6 +9,7 @@ export default function Loader() {
       radius="9"
       color="#4fa94d"
       ariaLabel="three-dots-loading"
-    />
+      wrapperStyle={{ 'display': 'block' }}
+      />
   );
 }

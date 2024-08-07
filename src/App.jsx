@@ -6,6 +6,7 @@ import LoadMoreBtn from './components/LoadMoreBtn/LoadMoreBtn';
 import ErrorMessage from './components/ErrorMessage/ErrorMessage.jsx';
 import Loader from './components/Loader/Loader.jsx';
 import ImageModal from './components/ImageModal/ImageModal.jsx';
+import './App.css';
 
 function App() {
 
